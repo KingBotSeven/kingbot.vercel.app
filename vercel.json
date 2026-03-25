@@ -1,5 +1,0 @@
-{
-  "routes": [
-    { "src": "/privacidad", "dest": "/privacidad.html" }
-  ]
-}
