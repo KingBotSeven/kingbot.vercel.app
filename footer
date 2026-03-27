@@ -1,0 +1,6 @@
+<footer style={{ textAlign: "center", padding: "40px", borderTop: "1px solid #222" }}>
+  <p>© 2026 KingBot</p>
+  <a href="/privacidad" style={{ color: "#888" }}>
+    Política de privacidad
+  </a>
+</footer>
