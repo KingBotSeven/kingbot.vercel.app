@@ -1,0 +1,18 @@
+<section style={{ display: "flex", justifyContent: "center", gap: "20px", padding: "60px 20px", flexWrap: "wrap" }}>
+  
+  <div style={{ background: "#111", padding: "20px", borderRadius: "10px", width: "250px" }}>
+    <h3>⚡ Respuestas instantáneas</h3>
+    <p>Atendé a tus clientes en segundos, sin esperar.</p>
+  </div>
+
+  <div style={{ background: "#111", padding: "20px", borderRadius: "10px", width: "250px" }}>
+    <h3>🤖 Automatización total</h3>
+    <p>Dejá que el sistema trabaje por vos 24/7.</p>
+  </div>
+
+  <div style={{ background: "#111", padding: "20px", borderRadius: "10px", width: "250px" }}>
+    <h3>📈 Más ventas</h3>
+    <p>Convertí más consultas en clientes reales.</p>
+  </div>
+
+</section>
