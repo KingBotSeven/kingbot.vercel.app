@@ -1,12 +1,90 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>KingBot</title>
-</head>
-<body style="font-family: Arial; text-align: center; padding: 40px;">
-  <h1>KingBot</h1>
-  <p>Automatizamos tus ventas con inteligencia artificial</p>
+export default function Home() {
+  return (
+    <main style={{ fontFamily: "Arial, sans-serif" }}>
 
-  <a href="/privacidad">Ver Política de Privacidad</a>
-</body>
-</html>
+      {/* HERO */}
+      <section style={{ textAlign: "center", padding: "80px 20px" }}>
+        <h1 style={{ fontSize: "42px", fontWeight: "bold" }}>
+          Automatizá tu negocio con chatbots y convertí más clientes 24/7
+        </h1>
+
+        <p style={{ fontSize: "18px", marginTop: "20px" }}>
+          Creamos sistemas que responden automáticamente tus mensajes, califican leads y aumentan tus ventas sin que tengas que estar pendiente.
+        </p>
+
+        <a href="https://wa.me/TUNUMERO" target="_blank">
+          <button style={{
+            marginTop: "30px",
+            padding: "15px 30px",
+            fontSize: "16px",
+            backgroundColor: "black",
+            color: "white",
+            borderRadius: "8px",
+            cursor: "pointer"
+          }}>
+            Agendar demo gratis
+          </button>
+        </a>
+      </section>
+
+      {/* PROBLEMA */}
+      <section style={{ padding: "60px 20px", textAlign: "center" }}>
+        <h2>Estás perdiendo clientes todos los días</h2>
+        <p>
+          No respondés a tiempo, se te escapan consultas y dependés 100% de estar conectado.
+          Cada mensaje sin responder es una oportunidad perdida.
+        </p>
+      </section>
+
+      {/* SOLUCIÓN */}
+      <section style={{ padding: "60px 20px", backgroundColor: "#f5f5f5", textAlign: "center" }}>
+        <h2>Nosotros lo automatizamos por vos</h2>
+        <p>
+          Implementamos chatbots inteligentes que responden en segundos, atienden 24/7,
+          filtran clientes reales y automatizan seguimientos.
+        </p>
+      </section>
+
+      {/* BENEFICIOS */}
+      <section style={{ padding: "60px 20px", textAlign: "center" }}>
+        <h2>¿Qué vas a lograr?</h2>
+        <ul style={{ listStyle: "none", padding: 0 }}>
+          <li>✔ Más consultas atendidas</li>
+          <li>✔ Más ventas sin esfuerzo extra</li>
+          <li>✔ Mejor experiencia para tus clientes</li>
+          <li>✔ Menos tiempo perdido respondiendo mensajes</li>
+        </ul>
+      </section>
+
+      {/* COMO FUNCIONA */}
+      <section style={{ padding: "60px 20px", backgroundColor: "#f5f5f5", textAlign: "center" }}>
+        <h2>¿Cómo funciona?</h2>
+        <p>1. Analizamos tu negocio</p>
+        <p>2. Diseñamos el chatbot a medida</p>
+        <p>3. Lo integramos a WhatsApp y redes</p>
+        <p>4. Empezás a recibir y convertir más clientes</p>
+      </section>
+
+      {/* CTA FINAL */}
+      <section style={{ padding: "80px 20px", textAlign: "center" }}>
+        <h2>Empezá hoy mismo</h2>
+        <p>No sigas perdiendo clientes por no responder a tiempo</p>
+
+        <a href="https://wa.me/1150493683" target="_blank">
+          <button style={{
+            marginTop: "20px",
+            padding: "15px 30px",
+            fontSize: "16px",
+            backgroundColor: "black",
+            color: "white",
+            borderRadius: "8px",
+            cursor: "pointer"
+          }}>
+            Quiero automatizar mi negocio
+          </button>
+        </a>
+      </section>
+
+    </main>
+  );
+}
